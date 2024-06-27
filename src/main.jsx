@@ -10,7 +10,7 @@ import Layout from "./components/Layout.jsx";
 import CartPage from "./pages/CartPage.jsx";
 import CategoryPage from "./pages/CategoryPage.jsx";
 import ProductDetailPage from "./pages/ProductDetailPage.jsx";
-import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import { registerSW } from "virtual:pwa-register";
 
 const router = createBrowserRouter([
     {
@@ -61,4 +61,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </Provider>
 );
 
-serviceWorkerRegistration.register();
+registerSW();

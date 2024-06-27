@@ -17,8 +17,7 @@ const ProductListingPage = () => {
 
     return (
         <>
-            {" "}
-            <h1 className="text-center text-xl uppercase font-bold text-white">
+            <h1 className="text-center text-xl uppercase font-bold text-white mt-10">
                 All Products
             </h1>
             <div className="w-fit mx-auto grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">

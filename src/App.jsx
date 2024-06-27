@@ -9,7 +9,7 @@ function App() {
             <Header />
             <main className="flex flex-wrap">
                 <Category />
-                <div className="flex flex-col bg-slate-600 justify-center items-center w-full p-10">
+                <div className="flex flex-col bg-slate-600 justify-center items-center w-full">
                     <ProductListingPage />
                 </div>
             </main>
