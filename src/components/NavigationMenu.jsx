@@ -30,6 +30,7 @@ const NavigationMenu = () => {
                 <button
                     onClick={toggleMenu}
                     className="focus:outline-none z-50 relative"
+                    aria-label="toggle menu"
                 >
                     {isMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
                 </button>

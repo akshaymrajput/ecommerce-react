@@ -56,6 +56,7 @@ const ProductDetailPage = () => {
                     <Button
                         onClick={() => addToCart(product)}
                         className="mt-4 bg-amber-500 hover:bg-amber-700 text-white px-6 py-2 "
+                        aria-label="add product to cart"
                     >
                         Add to Cart
                     </Button>

@@ -96,6 +96,7 @@ const CartPage = () => {
                                                 removeFromCart(item.id)
                                             }
                                             className="bg-red-500 hover:bg-red-700 text-white px-4 py-2 rounded-md"
+                                            aria-label="Remove item from cart"
                                         >
                                             Remove
                                         </Button>
@@ -108,7 +109,10 @@ const CartPage = () => {
                         <p className="text-2xl font-semibold">
                             Subtotal: ${subtotal.toFixed(2)}
                         </p>
-                        <Button className="mt-4 bg-amber-500 hover:bg-amber-700 px-6 py-2 rounded-lg text-lg">
+                        <Button
+                            className="mt-4 bg-amber-500 hover:bg-amber-700 px-6 py-2 rounded-lg text-lg"
+                            aria-label="go to checkout"
+                        >
                             Checkout
                         </Button>
                     </div>
